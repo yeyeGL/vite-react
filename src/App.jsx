@@ -1,11 +1,14 @@
-import { FakeStore } from "./components/Ejericico3/FakeStore"
+import "../src/StylesNavbar.css"
+import { ItemListC } from "./components/Ejercicio4/ItemListC"
+import { Navbar } from "./components/Ejercicio4/Navbar"
 
 
 function App() {
 
   return (
     <div>
-      <FakeStore/>
+      <Navbar/>
+      <ItemListC/>
     </div>
   )
 }
