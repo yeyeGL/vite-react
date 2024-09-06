@@ -1,10 +1,10 @@
-import { ListContainer } from "./components/ListContainer"
+import { RickMorti } from "./components/Ejercicio2/RickMorti"
 
 function App() {
 
   return (
     <div>
-      <ListContainer/>
+      <RickMorti/>
     </div>
   )
 }

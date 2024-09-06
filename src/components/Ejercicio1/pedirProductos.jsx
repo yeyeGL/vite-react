@@ -1,4 +1,4 @@
-import data from '../data/datos.json';
+import data from '../../data/datos.json';
 
 export const pedirProductos = () => {
     return new Promise((resolve, reject) => {
