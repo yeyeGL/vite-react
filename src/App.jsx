@@ -1,10 +1,11 @@
-import { RickMorti } from "./components/Ejercicio2/RickMorti"
+import { FakeStore } from "./components/Ejericico3/FakeStore"
+
 
 function App() {
 
   return (
     <div>
-      <RickMorti/>
+      <FakeStore/>
     </div>
   )
 }
