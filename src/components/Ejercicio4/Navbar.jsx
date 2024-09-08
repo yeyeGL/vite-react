@@ -1,4 +1,6 @@
 import React from "react"
+import { ItemListC } from "./ItemListC"
+import { Link } from "react-router-dom"
 
 
 export const Navbar = () => {
@@ -6,13 +8,13 @@ export const Navbar = () => {
 
     return (
         <nav className="navbar"> 
-            <a href="" className="logo"><h1>YeyePay</h1></a>
+            <Link to="" className="logo"><h1>YeyePay</h1></Link>
             <ul className="menu">
-                <li><a className="menu-link" href="">Inicio</a></li>
-                <li><a className="menu-link" href="">Acerca de nosotros</a></li>
-                <li><a className="menu-link" href="">Ayuda y soporte</a></li>
-                <li><a className="menu-link" href="">contacto</a></li>
-                <li><a className="menu-link" href="">Productos</a></li>
+                <li><Link className="menu-link" to="/">Inicio</Link></li>
+                <li><Link className="menu-link" to="/nosotros">Acerca de nosotros</Link></li>
+                <li><Link className="menu-link" to="/soporte">Ayuda y soporte</Link></li>
+                <li><Link className="menu-link" to="/contacto">contacto</Link></li>
+                <li><Link className="menu-link" to="/productos">Productos</Link></li>
             </ul>
         </nav>
     )

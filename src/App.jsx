@@ -1,14 +1,11 @@
 import "../src/StylesNavbar.css"
-import { ItemListC } from "./components/Ejercicio4/ItemListC"
-import { Navbar } from "./components/Ejercicio4/Navbar"
-
+import Rutas from "./routes/Rutas"
 
 function App() {
 
   return (
     <div>
-      <Navbar/>
-      <ItemListC/>
+      <Rutas/>
     </div>
   )
 }
