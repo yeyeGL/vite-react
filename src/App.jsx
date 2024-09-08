@@ -1,4 +1,4 @@
-import "../src/StylesNavbar.css"
+import "../src/components/Ejercicio4/StylesGeneral.css"
 import Rutas from "./routes/Rutas"
 
 function App() {

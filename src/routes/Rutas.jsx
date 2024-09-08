@@ -6,8 +6,8 @@ import { ItemListC } from "../components/Ejercicio4/ItemListC";
 function Rutas() {
     return (
         <BrowserRouter>
-        <Navbar/>
             <Routes>
+                <Route path="/" element={<Navbar />}/>
                 <Route path="/productos" element={<ItemListC />} />
             </Routes>
         </BrowserRouter>
